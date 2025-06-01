@@ -8,7 +8,7 @@ Platform: aarch64-apple-darwin20 (64-bit)
 
 Programs: 
 (1) 1_iWUE_TR_iwue_recalculate.R
-Calculate the intrinsic water use efficiency according to 13C. The variable "iWUE_new" is used in the study. 
+Calculate the intrinsic water use efficiency according to 13C. The variable "iWUE_new" is used in the study. "ca_recom" and "d13Catm_recom" represent atmospheric CO2 concentration and stable carbon isotope data, respectively. 
 (2) 2_iWUE_TR_iwue_iav_splinefit.R
 Detrend the estimated iWUE and get the annual anomalies of iWUE. 
 (3) 3_iWUE_TR_data_iav_prepare.R
