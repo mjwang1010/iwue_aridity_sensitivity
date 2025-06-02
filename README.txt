@@ -25,6 +25,8 @@ Plot the Figure 2 in the manuscript.
 Plot the Figure 3 in the manuscript. 
 (9) 9_iWUE_optmodel_simulate.R
 Simulations of the first-principle based model for the sensitivity changes under different scenarios. Plot the Figure 4 in the manuscript. 
+(10) 10_iWUE_model_simulate_future_analysis.R
+Analyze and plot simulated sensitivity of iWUE under historical and future scenarios.
 
 Data: 
 (1) TR_iwue_newco2_processed_iwue_full_iav_20nyrs_all.csv
@@ -37,4 +39,6 @@ Climate data averaged over the growing season.
 Combined anomaly data of both iWUE and SPEI. 
 (5) TR_iwue_sensdiff_win22sens_1951_2010.csv
 Estimated difference of the sensitivity at each tree between the first and last periods. 
+(6) df_sim_sens_historical_meanco2.csv, df_sim_sens_ssp126_meanco2.csv, df_sim_sens_ssp245_meanco2.csv, df_sim_sens_ssp370_meanco2.csv, df_sim_sens_ssp585_meanco2.csv
+Multiple files store simulated sensitivities of iWUE under different scenarios as well as input variables. 
 
