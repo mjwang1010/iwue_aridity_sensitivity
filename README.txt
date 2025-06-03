@@ -42,3 +42,5 @@ Estimated difference of the sensitivity at each tree between the first and last 
 (6) df_sim_sens_historical_meanco2.csv, df_sim_sens_ssp126_meanco2.csv, df_sim_sens_ssp245_meanco2.csv, df_sim_sens_ssp370_meanco2.csv, df_sim_sens_ssp585_meanco2.csv
 Multiple files store simulated sensitivities of iWUE under different scenarios as well as input variables. 
 
+* Source_Data: raw data for generating each figure.
+
