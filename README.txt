@@ -26,6 +26,9 @@ Plot the Figure 3 in the manuscript.
 (9) 9_1_iWUE_model_simulate_figure.R
 Simulations of the first-principle based model for the sensitivity changes under different scenarios. Plot the Figure 4 in the manuscript. 
 
+* Other .R files are programs to draw supplementary figures.
+
+
 Data: 
 (1) TR_iwue_newco2_processed_iwue_full_iav_20nyrs_all.csv
 The file contains the new estimated iWUE and its annual anomalies at each tree site. 
