@@ -8,8 +8,7 @@ library(patchwork)
 library(trend)
 library(boot)
 
-# inpath1 <- 'Path for input files'
-inpath1 <- '/Users/mw/Documents/Proj_Postdoc/Proj_WUETrait/Revision_202212/Docs_revise_part1/Code_Data_submit_v2/'
+inpath1 <- 'Path for input files'
 setwd(inpath1)
 
 # Functions ---------------------------------------------------------------
