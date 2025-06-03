@@ -179,7 +179,7 @@ ggplot(data = df_iso_sub, aes(x = year, y = A_ca_new)) +
 df_year1_ylab <- df_year1 %>% add_column(year = 1951)
 df_year2_ylab <- df_year2 %>% add_column(year = 2010)
 df_parab_rel <- bind_rows(df_year1_ylab, df_year2_ylab)
-data_outpath = "/Users/mw/Documents/Proj_Postdoc/Proj_WUETrait/Revision_202212/Docs_revise_part1/NatGeo_submit/AIP/Source_Data/"
+data_outpath = "out file paths"
 write_csv(df_parab_rel, 
           file = paste0(data_outpath, 'SuppFig8/', 'iwue_para_b_supp_fig8.csv'))
 write_csv(df_compare, 
