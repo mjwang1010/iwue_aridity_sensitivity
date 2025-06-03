@@ -10,7 +10,7 @@ library(tidyverse)
 # Load data ---------------------------------------------------------------
 
 
-inputpath <- '/Users/mw/Documents/Proj_Postdoc/Proj_WUETrait/Revision_202212/Results_revise_part1/'
+inputpath <- 'input file paths'
  
 # Growing-season annual data
 df_cru = read_csv(paste0(inputpath, 'TRMET_data_cru_climate_gs3.csv'))
