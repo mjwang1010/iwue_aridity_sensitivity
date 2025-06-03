@@ -5,7 +5,7 @@ source('iWUE_setting.R')
 # Load data ---------------------------------------------------------------
 
 # carbon isotope data
-infilepath1 <- '/Users/mw/Documents/Proj_Postdoc/Proj_WUETrait/Revision_202212/Results_revise_part1/'
+infilepath1 <- 'input file paths'
 infilename1 <- 'tree_ring_iwue_newco2_processed_iwue_full_iav_20nyrs_all.csv'
 df_iso <- read_csv(paste0(infilepath1, infilename1))
 
