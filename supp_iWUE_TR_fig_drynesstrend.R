@@ -1,6 +1,6 @@
 # The dryness trends
 
-source('/Users/mw/Documents/Proj_Postdoc/Proj_WUETrait/Revision_202212/iWUE_setting.R')
+source('/iWUE_setting.R')
 infilepath1 <- 'Results_revise_part1/'
 outfilepath1 <- infilepath1
 world_map <- map_data('world')
