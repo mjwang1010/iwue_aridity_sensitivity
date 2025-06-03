@@ -23,10 +23,8 @@ Estimate the temporal change in the sensitivity between the first and last perio
 Plot the Figure 2 in the manuscript.
 (8) 8_iWUE_TR_winsens_diff_factor_figure.R
 Plot the Figure 3 in the manuscript. 
-(9) 9_iWUE_optmodel_simulate.R
+(9) 9_1_iWUE_model_simulate_figure.R
 Simulations of the first-principle based model for the sensitivity changes under different scenarios. Plot the Figure 4 in the manuscript. 
-(10) 10_iWUE_model_simulate_future_analysis.R
-Analyze and plot simulated sensitivity of iWUE under historical and future scenarios.
 
 Data: 
 (1) TR_iwue_newco2_processed_iwue_full_iav_20nyrs_all.csv
