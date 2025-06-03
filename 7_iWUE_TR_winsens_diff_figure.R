@@ -4,10 +4,10 @@
 # Scattering
 
 source('iWUE_setting.R')
-# infilepath1 <- 'Path of the input file folder'
-infilepath1 <- '/Users/mw/Documents/Proj_Postdoc/Proj_WUETrait/Revision_202212/Docs_revise_part1/Code_Data_submit_v2/'
-# outfilepath1 <- infilepath1
-outfilepath1 <- '/Users/mw/Documents/Proj_Postdoc/Proj_WUETrait/Revision_202212/Results_revise_part1/'
+# Path of the input file folder
+infilepath1 <- '...'
+# Path of the output file folder
+outfilepath1 <- '...'
 world_map <- map_data('world')
 
 # Load data ---------------------------------------------------------------
