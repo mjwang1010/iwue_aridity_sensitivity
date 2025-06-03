@@ -810,7 +810,7 @@ if (F) {
 
 # Save data ---------------------------------------------------------------
 
-data_outpath = "/Users/mw/Documents/Proj_Postdoc/Proj_WUETrait/Revision_202212/Docs_revise_part1/NatGeo_submit/AIP/Source_Data/"
+data_outpath = "out file paths"
 write_csv(df_wsens_sm, 
           file = paste0(data_outpath, 'SuppFig5/', 'iwue_sens_against_climate_noacclim_tile.csv'))
 write_csv(df_wsens_sm1_diff, 
