@@ -3,7 +3,7 @@
 # Use different data to form different figures
 # Then, combine the figures
 
-source('/Users/mw/Documents/Proj_Postdoc/Proj_WUETrait/Revision_202212/iWUE_setting.R')
+source('iWUE_setting.R')
 
 
 # Set parameters ----------------------------------------------------------
@@ -140,7 +140,7 @@ f_sens_sm
 
 # Future simulation data prep ---------------------------------------------
 
-infilepath = '/Users/mw/Documents/Proj_Postdoc/Proj_WUETrait/Revision_202212/Results_revise_part1/CMIPOutput/Postprocess/'
+infilepath = 'Path for input files'
 infilename1 <- 'model_sim_sens_multiscen.csv'
 df_sim <- read_csv(paste0(infilepath, infilename1))
 
@@ -174,22 +174,8 @@ f_fsim
 
 # Combine figures ---------------------------------------------------------
 
-f_combine1 <- f_sens_sm + f_fsim + plot_layout(widths = c(1, 1.5))
-
-if (F) {
-outfigpath <- '/Users/mw/Documents/Proj_Postdoc/Proj_WUETrait/Revision_202212/Results_revise_part1/Figures/'
-ggsave(
-  f_combine1, 
-  filename = paste0(outfigpath, 'fig4_iwue_model_smsens_v3_combine_future_scen.jpeg'), 
-  dpi = 600, 
-  unit = 'mm', 
-  width = 130, 
-  height = 65
-)
-}
-
 # To save as PDF
-outfilepath1 = '/Users/mw/Documents/Proj_Postdoc/Proj_WUETrait/Revision_202212/Docs_revise_part1/NatGeo_submit/AIP/Figures_AIP/'
+outfilepath1 = 'Path for output figures'
 ggsave(
   f_combine1,
   filename = paste0(
